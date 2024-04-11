@@ -41,6 +41,7 @@ describe("Vampire", function() {
 
     it("should return true when a vampire is more senior", () => {
       expect(offspring3.isMoreSeniorThan(offspring4)).to.equal(true);
+      
     });
     
     it("should return false when a vampire is not more senior", () => {
